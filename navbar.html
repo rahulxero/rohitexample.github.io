@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>navbar </title>
+</head>
+
+<body>
+
+    <div id="nav-placeholder">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.facebook.com">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PG
+                    </a>
+                   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Post</a>
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link " href="/login.html"><i class="fas fa-user"></i> &#160 Login</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <script>
+        $(function () {
+          $("#nav-placeholder").load("navbar.html");
+        });
+      </script>
+
+</body>
+
+</html>
